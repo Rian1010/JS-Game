@@ -1,6 +1,4 @@
-export {Paddle};
-
-class Paddle {
+export default class Paddle {
     constructor(gameWidth, gameHeight) {
 
         this.gameWidth = gameWidth;

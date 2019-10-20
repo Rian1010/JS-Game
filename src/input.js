@@ -1,6 +1,4 @@
-export {InputHandler};
-
-class InputHandler {
+export default class InputHandler {
 
     constructor(paddle) {
         document.addEventListener('keydown', event => {
